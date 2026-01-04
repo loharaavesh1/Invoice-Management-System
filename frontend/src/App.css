@@ -1,0 +1,149 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ===== Common Container ===== */
+.container {
+  max-width: 450px;
+  margin: 80px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Headings ===== */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* ===== Inputs ===== */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* ===== Buttons ===== */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ===== Links ===== */
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Table ===== */
+table {
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* ===== Status Badges ===== */
+.status-paid {
+  color: green;
+  font-weight: bold;
+}
+
+.status-unpaid {
+  color: red;
+  font-weight: bold;
+}
+
+.status-pending {
+  color: orange;
+  font-weight: bold;
+}
+
+/* ===== Action Buttons ===== */
+.action-btn {
+  padding: 6px 10px;
+  margin: 0 3px;
+  font-size: 12px;
+  width: auto;
+}
+
+.edit-btn {
+  background-color: #28a745;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .container {
+    margin: 40px 15px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 13px;
+  }
+}
