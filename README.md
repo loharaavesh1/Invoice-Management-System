@@ -54,7 +54,7 @@ This project demonstrates practical knowledge of **React.js**, **Express.js**, a
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/loharaavesh1/Invoice-Management-System.git
 cd Invoice-Management-System
 ```
 
