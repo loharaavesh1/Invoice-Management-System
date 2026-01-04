@@ -1,0 +1,12 @@
+{
+  "name": "invoice-management-system",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
